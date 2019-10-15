@@ -87,7 +87,7 @@ TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_FBE := true
 
 # TWRP
-TW_DEVICE_VERSION := 1_mentalmuso
+# TW_DEVICE_VERSION := 1_mentalmuso
 RECOVERY_VARIANT := twrp
 TW_THEME := landscape_hdpi
 RECOVERY_SDCARD_ON_DATA := true
@@ -105,6 +105,7 @@ TW_EXCLUDE_SUPERSU := true
 TW_USE_NEW_MINADBD := true
 TW_EXTRA_LANGUAGES := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
+TW_INPUT_BLACKLIST := "sec_e-pen-pad"
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_MTP_DEVICE := /dev/mtp_usb
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file"
