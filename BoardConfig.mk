@@ -22,7 +22,7 @@ TARGET_BOOTLOADER_BOARD_NAME := msm8998
 TARGET_NO_BOOTLOADER := true
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/samsung/gts4llte/prebuilt/Image-dtb
+TARGET_PREBUILT_KERNEL := device/samsung/gts4lwifi/prebuilt/Image-dtb
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_APPEND_DTB := true
@@ -52,11 +52,11 @@ BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_SUPPRESS_SECURE_ERASE := true
 
 # Recovery
-TARGET_OTA_ASSERT_DEVICE := gts4llte
+TARGET_OTA_ASSERT_DEVICE := gts4lwifi
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_USERIMAGES_USE_EXT4 := true
-TARGET_RECOVERY_FSTAB := device/samsung/gts4llte/recovery/root/etc/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/samsung/gts4lwifi/recovery/root/etc/recovery.fstab
 
 # Android Verified Boot
 BOARD_AVB_ENABLE := false
